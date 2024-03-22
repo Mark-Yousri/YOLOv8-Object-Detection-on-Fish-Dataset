@@ -16,6 +16,7 @@ The FPN used in this notebook is a simple one-layer FPN that concatenates the fe
 The model is compiled and trained using the Keras CV library, which provides various utilities and losses for object detection. The model is trained for 60 epochs, using the Nadam optimizer, the binary crossentropy loss for classification, and the complete IoU (CIoU) loss for bounding box regression.
 
 # Results
-The model achieves a validation loss of 3.7683, a validation box loss of 2.7745, and a validation class loss of 0.9938. The model is able to detect fish, jellyfish, sharks, and tuna in images with reasonable accuracy and precision. Some examples of the model’s predictions are shown below:
+The model achieves a validation loss of 3.7683, a validation box loss of 2.7745, and a validation class loss of 0.9938. The model is able to detect fish, jellyfish, sharks, and tuna in images with reasonable accuracy and precision.
 
-!YOLOv8 predictions
+# Dataset link 
+www.kaggle.com/datasets/markyousri/marine-life-classification-dataset
